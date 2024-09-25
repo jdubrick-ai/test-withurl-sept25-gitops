@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-withurl-sept25-model-config
+data:
+  MODEL_ENDPOINT: "http://test-withurl-sept25-model-server:8001"
